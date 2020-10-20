@@ -1,0 +1,83 @@
+*{
+    background-color: none;
+}
+body{
+    background-color: none;
+    
+}
+.navbar {
+    height: 80px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    width: 120px;
+    height: 60px;
+    padding: 10px 10px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: .4s;
+}
+
+.navbar ul li a.active,
+.navbar ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+.container{
+    margin: 20px 40px 10px 40px;
+    background-color:none;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+.container .image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#cycleid{
+    height: 580px;
+    width: 900px;
+}
+
+h2{
+    text-align: center;
+}
+
+.container .inside1{
+    margin-top: 20px;
+    padding: 10px 10px 10px 25px;
+    background-color: khaki;
+    border-radius: 10px;
+}
+.container .inside2{
+    background-color: khaki;
+    margin-top: 20px;
+    padding: 10px 10px 10px 25px;
+    border-radius: 10px;
+}

@@ -5,13 +5,95 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>schemes</title>
     <style>
+        .navbar {
+            height: 80px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            width: 120px;
+            height: 60px;
+            padding: 10px 10px;
+        }
+
+        .navbar ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: sans-serif;
+            font-weight: bold;
+            transition: .4s;
+        }
+
+        .navbar ul li a.active,
+        .navbar ul li a:hover {
+            background: red;
+            border-radius: 2px;
+        }
+        h1{
+            position: absolute;
+            text-align: center;
+            color: rgba(238, 127, 37, 0.863);
+            font-size: 50px;
+            margin-top: 100px;
+            margin-left: 400px;
+        }
+        .img{
+            height: 760px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        #img1{
+            height: 600px;
+            width: 100%;
+            margin-top: -30px;
+        }
+        #img2{
+            height: 700px;
+        }
+        #img8{
+            width: 70%;
+            margin-left: 230px;
+            margin-top: 30px;
+        }
 
     </style>
 </head>
 <body>
+    <nav class="navbar">
+        <img class="logo" src="logo.jpg">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a class="active" href="#">Schemes</a></li>
+        </ul>
+    </nav>
     <h1>Government Schemes For Farmers</h1>
-    <div class="container">
-        
-    </div>
+    <img class="img" id="img1" src="schemes5.jpg">
+    <img class="img" id="img2" src="schemes0.jpg">
+    <img class="img" id="img3" src="schemes2.jpg">
+    <img class="img" id="img4" src="schemes1.jpg">
+    <img class="img" id="img5" src="schemes3.jpg">
+    <img class="img" id="img6" src="schemes4.jpg">
+    <img class="img" id="img7" src="schemes6.jpg">
+    <img class="img" id="img8" src="schemes7.png">
+    <img class="img" id="img9" src="schemes8.jpg">
+    
 </body>
 </html>
