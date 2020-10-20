@@ -12,12 +12,13 @@
         .container {
             background: url('image1.jpg') no-repeat;
             font-weight: bold;
-            width: 1000px;
+            width: 1200px;
             margin: auto;
             height: 600px;
             margin: auto;
             padding: 15px 55px 15px 55px;
             border-radius: 15px;
+            margin-bottom: 50px;
         }
         h1{
             font-family: cursive;
@@ -26,11 +27,61 @@
             text-align: center;
             font-size: 40px;
             height: 30px;
+            margin-left: 550px;
+        }
+        .navbar {
+            height: 80px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            width: 120px;
+            height: 60px;
+            padding: 10px 10px;
+        }
+
+        .navbar ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: sans-serif;
+            font-weight: bold;
+            transition: .4s;
+        }
+
+        .navbar ul li a.active,
+        .navbar ul li a:hover {
+            background: red;
+            border-radius: 2px;
         }
     </style>
 </head>
 
 <body>
+    <nav class="navbar">
+        <img class="logo" src="logo.jpg">
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a class="active" href="#">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="schemes.html">Schemes</a></li>
+        </ul>
+    </nav>
     <h1>About Us</h1>
     <div class="container">
         <p>Agriculture is the backbone of the Indian Economy"- said Mahatma Gandhi six decades ago. Even today, the

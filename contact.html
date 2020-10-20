@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,30 +9,81 @@
     <style>
         body{
             text-align: center;
-            background-color: black;
         }
-        h1{
-            color: red;
+        .navbar {
+            height: 80px;
+            width: 100%;
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        .logo {
+            width: 120px;
+            height: 60px;
+            padding: 10px 10px;
+        }
+
+        .navbar ul {
+            float: right;
+            margin-right: 20px;
+        }
+
+        .navbar ul li {
+            list-style: none;
+            margin: 0 8px;
+            display: inline-block;
+            line-height: 80px;
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            padding: 6px 13px;
+            font-family: sans-serif;
+            font-weight: bold;
+            transition: .4s;
+        }
+
+        .navbar ul li a.active,
+        .navbar ul li a:hover {
+            background: red;
+            border-radius: 2px;
+        }
+        h1 {
+            color: rgba(85, 6, 6, 0.726);
             font-size: 50px;
             font-weight: bolder;
+            padding-top: 10px;
         }
-        .container{
-            background-color: rgb(184, 231, 13);
-            height: 200px;
+        .upper{
+            background: url('call.jpg') no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .container {
+            height: 50px;
             width: 800px;
             text-align: center;
-            padding-top: 50px;
-            font-size: 30px;
+            padding-top: 1px;
+            padding-bottom: 100px;
+            font-size: 25px;
             font-weight: 800;
-            border-radius: 15px;
-            margin: auto;
+            margin-top: 300px;
+            margin-left: 360px;
+            color: rgb(212, 226, 240);
+            
         }
-        .container li{
+
+        .container li {
             list-style-type: none;
             padding-bottom: 20px;
         }
-        .another{
-            background-color: rgb(15, 206, 240);
+        .container li a{
+            color: rgb(92, 31, 7);
+        }
+
+        .another {
             height: 50px;
             width: 800px;
             text-align: center;
@@ -45,16 +97,30 @@
         }
     </style>
 </head>
+
 <body>
-    <h1>Contact details</h1>
-    <div class="container">
+    <nav class="navbar">
+        <img class="logo" src="logo.jpg">
         <ul>
-            <li>Email Id: shrutichaubey2501@gmail.com</li>
-            <li>Landline: 94560345234</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a class="active" href="#">Contact</a></li>
+            <li><a href="schemes.html">Schemes</a></li>
         </ul>
-    </div>
-    <div class="another">
-        <p>Service available: 8:00am - 8:00pm</p>
+    </nav>
+    <div class="upper">
+        <h1>Contact details</h1>
+        <div class="container">
+            <ul>
+                <li><a>Email Id:</a> krishivigyanyojna@gmail.com</li>
+                <li><a>Landline:</a> 8888444466</li>
+            </ul>
+        </div>
+        <div class="another">
+            <p>Service available: 8:00am - 8:00pm</p>
+        </div>
     </div>
 </body>
+
 </html>
