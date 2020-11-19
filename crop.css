@@ -1,12 +1,11 @@
+
 body{
-    margin-top: -6.2px;
-}
-.navbar{
+    margin-top: -6.5px;
+}.navbar{
     height: 80px;
     width: 100%;
     background: rgba(0,0,0,0.4);
-    position: sticky;
-    top:0;
+    margin-top: -7px;
 }
 .navbar p{
     color: #c7f011;
@@ -42,44 +41,37 @@ body{
     background: red;
     border-radius: 2px;
 }
-.contain .bkgd{
-    height: 550px;
-    width: 100%;
-    margin-top: -27.5px;
-}
-.contain h1{
-    text-align: center;
+h1{
+    margin-left: 600px;
+    margin-top: 40px;
     font-weight: bold;
-    margin-top: -500px;
-    font-size: 70px;
-    color: rgb(83, 59, 59);
-}
-.contain h2{
-    text-align: center;
-    font-weight: bold;
-    margin-top: 100px;
-    font-size: 20px;
-    color: rgb(124, 243, 45);
+    font-size: 40px;
+    color: rgb(134, 30, 30);
 }
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 300PX;
+    width: 1450px;
     padding: 30px 30px 30px 30px;
-    background-color: rgb(12, 68, 34);
 }
 .container .box{
     position: relative;
     width: 350px;
     padding: 40px;
-    background: rgb(248, 247, 252);
+    background: #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,.1);
     border-radius: 4px;
-    margin: 20px;
+    margin: 30px ;
     box-sizing: border-box;
     overflow: hidden;
     text-align: center;
+    padding-left: 20px;
+}
+.container .box .img{
+    height: 150px;
+    width: 300px;
+    padding: 0px 10px 0px 10px;
 }
 .container .box:before{
     content: '';
@@ -108,18 +100,18 @@ body{
     transition: 1s;
 }
 .container .box:nth-child(1) .icon{
-    box-shadow: 0 0 0 0 #f54a83;
-    background: #f54a83;
+    box-shadow: 0 0 0 0 #db0707;
+    background: #db0707;
 }
 .container .box:nth-child(1):hover .icon{
-    box-shadow: 0 0 0 400px #f54a83;
+    box-shadow: 0 0 0 400px #db0707;
 }
 .container .box:nth-child(2) .icon{
-    box-shadow: 0 0 0 0 #5963ee;
-    background:  #5963ee;
+    box-shadow: 0 0 0 0 #1d2aeb;
+    background: #1d2aeb;
 }
 .container .box:nth-child(2):hover .icon{
-    box-shadow: 0 0 0 400px #5963ee;
+    box-shadow: 0 0 0 400px #1d2aeb;
 }
 .container .box:nth-child(3) .icon{
     box-shadow: 0 0 0 0 #17cc26;
@@ -127,6 +119,27 @@ body{
 }
 .container .box:nth-child(3):hover .icon{
     box-shadow: 0 0 0 400px #17cc26;
+}
+.container .box:nth-child(4) .icon{
+    box-shadow: 0 0 0 0 #ee9b02;
+    background:  #ee9b02;
+}
+.container .box:nth-child(4):hover .icon{
+    box-shadow: 0 0 0 400px  #ee9b02;
+}
+.container .box:nth-child(5) .icon{
+    box-shadow: 0 0 0 0 #d40890;
+    background:#d40890;
+}
+.container .box:nth-child(5):hover .icon{
+    box-shadow: 0 0 0 400px #d40890;
+}
+.container .box:nth-child(6) .icon{
+    box-shadow: 0 0 0 0 #b7b92c;
+    background: #b7b92c;
+}
+.container .box:nth-child(6):hover .icon{
+    box-shadow: 0 0 0 400px #b7b92c;
 }
 .container .box .content{
     position: relative;
@@ -139,10 +152,6 @@ body{
 .container .box .content h3{
     font-size: 20px;
     margin: 10px 0;
-    padding: 0;
-}
-.container .box .content p{
-    margin: 0;
     padding: 0;
 }
 .container a{
