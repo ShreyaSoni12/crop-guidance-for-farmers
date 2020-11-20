@@ -4,7 +4,7 @@
 }
 
 .wrapper{
-    background: url('img.jpg') no-repeat;
+    background: url('Img/img.jpg') no-repeat;
     background-size: cover;
     height: 100vh;
 }
@@ -47,7 +47,7 @@
 .navbar ul li a.active,
 .navbar ul li a:hover{
     background: red;
-    border-radius: 2px;
+    border-radius:2px;
 }
 .wrapper .center{
     position: absolute;
